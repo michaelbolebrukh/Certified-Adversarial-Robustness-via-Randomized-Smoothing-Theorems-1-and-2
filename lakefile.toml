@@ -1,0 +1,18 @@
+name = "Certified Adversarial Robustness via Randomized Smoothing"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["«Certified Adversarial Robustness via Randomized Smoothing»"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.0-rc1"
+
+[[lean_lib]]
+name = "«Certified Adversarial Robustness via Randomized Smoothing»"
